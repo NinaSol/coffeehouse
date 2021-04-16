@@ -1,0 +1,58 @@
+span {cursor:pointer; }
+.number{
+    margin:100px;
+}
+.minus, .plus{
+    width:20px;
+    height:40px;
+    background:#f2f2f2;
+    border-radius:4px;
+    padding:8px 5px 8px 5px;
+    border:1px solid #ddd;
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+}
+.input{
+    height:34px;
+width: 100px;
+text-align: center;
+font-size: 26px;
+    border:1px solid #ddd;
+    border-radius:4px;
+display: inline-block;
+vertical-align: middle;
+} 
+#signup-email,#signup-password,#login-email,#login-password,#nombre,#numero{
+    border: 0px;
+    border-radius: 0px;
+    width: 400px;
+}
+
+#normalLogin,#googleLogin,#signinbtn,#my-form-button{
+   border-radius: 200px; 
+}
+#googleLogin,#signinbtn,#my-form-button{
+    background-color: #0dcaf0;
+    border: #0dcaf0;
+}
+#normalLogin{
+    background-color: grey;
+}
+#googleLogin:hover,#signinbtn:hover,#my-form-button:hover{
+    background-color: grey;
+    border: grey;
+    transition: all ease 1s;
+}
+#normalLogin:hover{
+    background-color: #0dcaf0;
+    border: #0dcaf0;
+    transition: all ease 1s;
+}
+
+#log-out-styles{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+     right:-1px;
+}
